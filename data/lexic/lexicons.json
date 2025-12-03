@@ -1,0 +1,220 @@
+{
+  "love_romantic": {
+    "description": "Amour passionné, idéalisation, douceur, adoration, ferveur affective.",
+    "tone": ["warm", "intense", "tender", "devotional", "rapturous", "ecstatic"],
+    "core_words": [
+      "love", "lover", "heart", "flame", "fire", "rose", "beauty", "kiss",
+      "embrace", "soul", "desire", "passion", "beloved", "darling",
+      "adore", "cherish", "tender", "eternal", "divine"
+    ],
+    "extended_words": [
+      "ardour", "fervour", "rapture", "bliss", "yearning", "longing",
+      "adoration", "devotion", "tear", "gaze", "smile",
+      "eyes", "lips", "cheek", "bosom", "breath",
+      "vow", "pledge", "faith", "honour",
+      "angelic", "celestial", "seraph", "cherub",
+      "pearl", "ruby", "gold", "silver",
+      "lily", "violet", "jasmine", "fragrance",
+      "nectar", "wine", "delight", "joy",
+      "broken heart", "burning desire", "eternal flame", "tender kiss", "sweet torment"
+    ],
+    "metaphors": [
+      "love is fire", "eyes are stars", "heart is a rose", "beauty is divine light"
+    ],
+    "famous_lines": [
+      "My love is like a red, red rose.",
+      "Shall I compare thee to a summer’s day?"
+    ],
+    "key_poets": ["Shakespeare", "Byron", "Burns", "Keats"],
+    "embedding_weight": 1.5
+  },
+
+  "melancholy_nostalgia": {
+    "description": "Perte, regret, solitude douce, mémoire, temps passé, tonalité brumeuse.",
+    "tone": ["sad", "pensive", "reflective", "wistful", "bittersweet"],
+    "core_words": [
+      "melancholy", "grief", "sorrow", "tears", "lament", "shadow",
+      "twilight", "autumn", "lonely", "forlorn", "ruin"
+    ],
+    "extended_words": [
+      "regret", "remorse", "echo", "phantom", "memory",
+      "fading", "withered", "fallen leaves", "forgotten",
+      "vanished", "bygone", "antique", "relic",
+      "spectre", "vision", "reverie", "solitude",
+      "broken", "shattered", "wounded", "heavy heart",
+      "desolate", "downcast", "oppressed",
+      "lost love", "cold night", "faded rose", "silent tears", "distant memory"
+    ],
+    "metaphors": [
+      "life is a fading flower", "time is a thief", "memory is a ghost"
+    ],
+    "famous_lines": [
+      "Our sweetest songs are those that tell of saddest thought."
+    ],
+    "key_poets": ["Shelley", "Keats", "Tennyson", "Coleridge"],
+    "embedding_weight": 1.4
+  },
+
+  "death_mortality": {
+    "description": "Méditations graves sur la mort, le destin, le corps, le silence et l’au-delà.",
+    "tone": ["dark", "solemn", "grave", "philosophical"],
+    "core_words": [
+      "death", "grave", "tomb", "dust", "shade", "ghost",
+      "eternal", "doom", "fate", "mortal", "decay"
+    ],
+    "extended_words": [
+      "coffin", "yew", "cypress", "charon", "styx", "bier",
+      "sepulchre", "crypt", "ossuary", "skull", "bone", "reaper",
+      "hourglass", "dirge", "requiem", "elegy", "lamentation",
+      "oblivion", "void", "abyss", "eternal sleep",
+      "dark soul", "cold grave", "final breath", "pale corpse", "silent dust"
+    ],
+    "metaphors": [
+      "death is sleep", "life is a shadow", "time is a devourer"
+    ],
+    "famous_lines": [
+      "Death be not proud."
+    ],
+    "key_poets": ["John Donne", "Emily Dickinson", "Dylan Thomas"],
+    "embedding_weight": 1.7
+  },
+
+  "time_transience": {
+    "description": "Fuite du temps, vieillesse, impermanence, urgence de vivre.",
+    "tone": ["urgent", "reflective", "melancholy"],
+    "core_words": [
+      "time", "hour", "day", "swift", "glass", "sand",
+      "age", "fleeting", "ephemeral", "moment"
+    ],
+    "extended_words": [
+      "relentless", "ceaseless", "eternal", "second", "minute",
+      "youth", "decline", "wither", "fall",
+      "carpe diem", "tempus fugit", "passing", "brief",
+      "fleeting hour", "winged chariot", "sands run", "brief candle"
+    ],
+    "metaphors": [
+      "time’s winged chariot", "beauty fades like a flower"
+    ],
+    "famous_lines": [
+      "Gather ye rosebuds while ye may."
+    ],
+    "key_poets": ["Marvell", "Herrick"],
+    "embedding_weight": 1.3
+  },
+
+  "nature_sublime": {
+    "description": "Grandeur des paysages, éléments puissants, sublime romantique.",
+    "tone": ["vast", "majestic", "calm", "terrible"],
+    "core_words": [
+      "nature", "sky", "star", "moon", "sun", "sea",
+      "storm", "wind", "mountain", "valley", "flower"
+    ],
+    "extended_words": [
+      "tempest", "grove", "ocean", "abyss", "cliff", "summit",
+      "waterfall", "thunder", "lightning", "dawn", "twilight", "mist",
+      "forest", "meadow", "river", "spring", "snow", "ice", "dew",
+      "blossom", "oak", "pine", "cedar",
+      "golden dawn", "silver moon", "roaring sea", "eternal hills"
+    ],
+    "metaphors": [
+      "nature is God’s book", "flowers dance"
+    ],
+    "famous_lines": [
+      "I wandered lonely as a cloud."
+    ],
+    "key_poets": ["Wordsworth", "Shelley"],
+    "embedding_weight": 1.2
+  },
+
+  "passion_erotic": {
+    "description": "Sensualité, désir, érotisme voilé, chaleur charnelle.",
+    "tone": ["hot", "sensual", "playful", "dangerous"],
+    "core_words": [
+      "desire", "lust", "kiss", "lip", "breast", "bed",
+      "naked", "embrace", "touch", "caress"
+    ],
+    "extended_words": [
+      "wanton", "mistress", "honey", "wine",
+      "ripeness", "forbidden", "shadow", "veil",
+      "conquest", "surrender", "possess", "devour",
+      "burning desire", "forbidden fruit", "naked flame", "secret bed", "ripe bosom"
+    ],
+    "metaphors": [
+      "body is a garden", "love is a battlefield"
+    ],
+    "famous_lines": [
+      "To His Coy Mistress."
+    ],
+    "key_poets": ["Donne", "Marvell"],
+    "embedding_weight": 1.1
+  },
+
+  "solitude_exile": {
+    "description": "Isolement, errance, distance sociale, introspection.",
+    "tone": ["cold", "isolated", "quiet", "resigned"],
+    "core_words": [
+      "alone", "solitary", "exile", "wanderer", "outcast",
+      "night", "silence", "desert", "wilderness"
+    ],
+    "extended_words": [
+      "abandoned", "pilgrim", "stranger", "banished",
+      "island", "rock", "cave", "tower",
+      "dungeon", "prison", "chains",
+      "cold night", "lonely wanderer", "desert waste", "palely loitering"
+    ],
+    "metaphors": [
+      "man is an island", "the soul wanders"
+    ],
+    "famous_lines": [
+      "Alone and palely loitering."
+    ],
+    "key_poets": ["Keats", "Coleridge"],
+    "embedding_weight": 1.0
+  },
+
+  "joy_ecstasy": {
+    "description": "Joie, lumière, célébration, énergie, exultation.",
+    "tone": ["bright", "uplifting", "exuberant", "triumphant"],
+    "core_words": [
+      "joy", "bliss", "delight", "song", "dance",
+      "laugh", "light", "radiant", "golden"
+    ],
+    "extended_words": [
+      "revelry", "ecstasy", "triumph", "victory",
+      "festival", "feast", "music", "trumpet",
+      "praise", "blessing",
+      "sweet light", "golden joy", "dancing heart", "blissful song", "heavenly rapture"
+    ],
+    "metaphors": [
+      "joy is light", "joy is music"
+    ],
+    "famous_lines": [
+      "A thing of beauty is a joy for ever."
+    ],
+    "key_poets": ["Keats", "Shelley"],
+    "embedding_weight": 0.9
+  },
+
+  "spirituality_devotion": {
+    "description": "Mystique, religion, lumière sacrée, révélation, ferveur spirituelle.",
+    "tone": ["sacred", "elevated", "mystical", "humble"],
+    "core_words": [
+      "soul", "spirit", "divine", "heaven", "holy",
+      "prayer", "mercy", "light", "grace"
+    ],
+    "extended_words": [
+      "contemplation", "ecstasy", "vision", "revelation",
+      "seraphic", "altar", "incense", "hymn",
+      "redeemer", "cross", "ascension",
+      "return to god", "divine flame", "holy light", "sacred fire", "soul bride"
+    ],
+    "metaphors": [
+      "soul as temple", "divine love as fire"
+    ],
+    "famous_lines": [
+      "Batter my heart, three-person’d God."
+    ],
+    "key_poets": ["John Donne", "George Herbert"],
+    "embedding_weight": 1.6
+  }
+}

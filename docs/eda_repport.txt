@@ -1,0 +1,81 @@
+eda
+
+analyse de forme 
+target : topic a determner donc pas dans le dataset faudrait ajouter une colonne target 
+lignes/colonnes :(3162, 9)
+types des donnes :
+
+object    6
+int64     3
+dtype: int64
+
+print((data.isna().sum()/data.shape[0]).sort_values(ascending=True))
+pas de vide 
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3162 entries, 0 to 3161
+Data columns (total 9 columns):
+ #   Column      Non-Null Count  Dtype 
+---  ------      --------------  ----- 
+ 0   title       3162 non-null   object
+ 1   author      3162 non-null   object
+ 2   lines       3162 non-null   object
+ 3   linecount   3162 non-null   int64 
+ 4   text        3162 non-null   object
+ 5   clean_text  3162 non-null   object
+ 6   lemmatized  3162 non-null   object
+ 7   word_count  3162 non-null   int64 
+ 8   line_count  3162 non-null   int64 
+dtypes: int64(3), object(6)
+memory usage: 222.5+ KB
+
+
+bon on reamrque que le nombre de ligne c'eest toujours un pourtaant c'est pas le cas en examinant un poeme 
+ANALYSE DE FOND 
+
+les themes amour et tristesse sont probable avec la redondance du mot love 
+une pletode de comparaison et de methaphore sont possible on a une tre forte redondance du like donc les descriptions peuvent fausser l'analyse 
+Top 30 mots les plus fréquents (hors stopwords) :
+thy : 8179
+thou : 7530
+like : 5817
+one : 5427
+thee : 5143
+love : 5105
+yet : 4832
+shall : 4779
+may : 4258
+would : 3820
+man : 3793
+er : 3760
+day : 3556
+god : 3485
+upon : 3475
+still : 3303
+heart : 3275
+let : 3263
+see : 3243
+ye : 3117
+life : 3053
+though : 2843
+men : 2688
+night : 2664
+well : 2642
+thus : 2597
+us : 2585
+could : 2565
+must : 2557
+earth : 2541
+
+Dévotion (thy, thou, thee, god) → beaucoup de prières et d’amour intense
+Espoir (yet, shall, may, let) → malgré la souffrance, on espère toujours
+Tristesse / Mélancolie (one, life, night, heart, earth) → c’est un corpus très mélancolique
+Regret & Résignation (would, could, must, though) → beaucoup de "si seulement…"
+Amour passionné (love, heart) → présent mais souvent douloureux
+
+les conclusions seront purement artistique car les mots ont des sens en fonction de la phrase 
+
+
+tres peu de doublon donc peuvent etre negliger 
+
+les informations sur le nombre de mts et phrase sont tres peu pertinentes vuq eu l''on analyse la tonalite 
+les titres etant assez aplat il faudrait les donner plus de poids qu'au texte juste un peu plus

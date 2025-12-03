@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environnements
+venv/
+.env/
+
+# Éditeurs
+.vscode/
+.idea/
+
+# Modèles lourds
+models/
+!models/poeticmind_v2/
+
+# Données brutes
+data/raw/
+data/cleaned/
+
+# Streamlit
+.streamlit/
+
+# Notebooks
+*.ipynb_checkpoints
