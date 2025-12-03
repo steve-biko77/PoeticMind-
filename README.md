@@ -2,7 +2,7 @@
 
 # 📘 **PoeticMind V2 — Analyse Émotionnelle & Recommandation Poétique**
 
-![Emotion Distribution](preview/preview.png)
+![Emotion Distribution](preview/preview.jpg)
 PoeticMind V2 est un moteur d'analyse poétique combinant NLP classique et clustering émotionnel.
 Il transforme des poèmes en vecteurs TF-IDF, détecte l’émotion dominante, calcule un score de confiance et génère des recommandations par proximité vectorielle.
 
@@ -190,4 +190,5 @@ print("Émotion détectée :", emotion)
 Projet développé par **Boss**
 Jeune développeur & roboticien 📡
 Objectif : maîtriser IA, technologies avancées et atteindre l’indépendance numérique.
+
 
